@@ -303,7 +303,7 @@ ul {
 
 .carousel-button:hover {
   background-color: var(--color-primary-dark);
-	fill: var(--color-primary-light);
+  fill: var(--color-primary-light);
 }
 
 /*Contact section*/
