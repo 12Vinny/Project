@@ -111,6 +111,13 @@ ul {
   background-color: transparent;
 }
 
+/*.button:disabled {
+	color: grey;
+	background-color: lightgray;
+	border-color: currentColor;
+	cursor: not-allowed;
+}*/
+
 /* Link */
 .link {
   color: var(--color-primary-light);
@@ -536,6 +543,14 @@ ul {
 .form-input:focus {
   border-color: var(--color-brand-normal);
   outline: none;
+}
+
+.form-input:disabled {
+  border-color: lightgray;
+}
+
+.form-input::placeholder {
+  color: lightgray;
 }
 
 .form-input::placeholder {
